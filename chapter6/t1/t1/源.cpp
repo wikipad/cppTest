@@ -13,7 +13,7 @@ int main()
 
 	while ((int)in.at(tmp)!=(int)(*Stop))
 	{
-		if (tmp == in.length())
+		if (tmp == (in.length()-1))
 		{
 			break;
 		}
